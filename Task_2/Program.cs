@@ -1,5 +1,6 @@
-﻿int DayNumber = 5;
+﻿int DayNumber = 9;
 string Day = "Понедельник";
+if (DayNumber < 1 || DayNumber > 7) Day = "Ошибка ввода";
 if (DayNumber == 2) Day = "Вторник";
 if (DayNumber == 3) Day = "Среда";
 if (DayNumber == 4) Day = "Четверг";
